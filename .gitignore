@@ -1,0 +1,6 @@
+/.idea/
+/result/
+log.html
+*output.xml
+*report.xml
+*selenium_screenshot*.png
