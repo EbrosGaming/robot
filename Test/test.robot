@@ -31,10 +31,19 @@ Uer can access website
     Wait until page contains     Mypage
     Click element                id:logo
     Wait until page contains     Infotiv Car Rental
-    Input text                   id:start   2021-03-20
-    Input text                   id:end     2021-03-30
+    Input text                   id:start   03-20
+    Input text                   id:end     03-30
     Click element                id:continue
     Wait until page contains     Infotiv Car Rental
+    Click element                id:bookRoadsterpass2
+    Input text                   id:cardNum     6969696969696969
+    Input text                   id:fullName    Hej Hopp
+    Click element                id:month7
+    Click element                id:month2022
+    Input text                   id:cvc     420
+    Click element                id:confirm
+    Click element                id:mypage
+    Wait until page contains     Mypage
     Close browser
 
 
