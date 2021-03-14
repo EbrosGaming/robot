@@ -1,14 +1,16 @@
 *** Settings ***
-Documentation    Suite description
+Documentation    Testing Infotiv Car Rental
+Library          SeleniumLibrary
 
 *** Test Cases ***
-Test title
-    [Tags]    DEBUG
-    Provided precondition
-    When action
-    Then check expectations
+Uer can access website
+    [Documentation]              Testing so that the webpage opens properly
+    [Tags]                       Test 1
+    Open browser                 about:blank     chrome
+    Go To                        http://rental9.infotiv.net/webpage/html/gui/index.php
+    Wait until page contains     Infotiv Car Rental
+    Click element                id:logo
+    Wait until page contains     Infotiv Car Rental
+    Close browser
 
-*** Keywords ***
-Provided precondition
-    Setup system under test
 
