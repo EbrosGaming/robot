@@ -23,6 +23,10 @@ Uer can access website
     Wait until page contains     Create user
     Click element                id:logo
     Wait until page contains     Infotiv Car Rental
+    Input text                   id:email   hejhopp@wasd.com
+    Input password               id:password    wasddsaw
+    Click element                id:login
+    Wait until page contains     Infotiv Car Rental
     Close browser
 
 
