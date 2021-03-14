@@ -27,6 +27,10 @@ Uer can access website
     Input password               id:password    wasddsaw
     Click element                id:login
     Wait until page contains     Infotiv Car Rental
+    Click element                id:mypage
+    Wait until page contains     Mypage
+    Click element                id:logo
+    Wait until page contains     Infotiv Car Rental
     Close browser
 
 
