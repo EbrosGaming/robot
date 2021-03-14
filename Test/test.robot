@@ -16,6 +16,9 @@ Uer can access website
     Click element                id:continue
     Click element                id:logo
     Wait until page contains     Infotiv Car Rental
+    Click element                id:about
+    Click element                id:logo
+    Wait until page contains     Infotiv Car Rental
     Close browser
 
 
