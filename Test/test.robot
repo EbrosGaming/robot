@@ -19,6 +19,10 @@ Uer can access website
     Click element                id:about
     Click element                id:logo
     Wait until page contains     Infotiv Car Rental
+    Click element                id:createUser
+    Wait until page contains     Create user
+    Click element                id:logo
+    Wait until page contains     Infotiv Car Rental
     Close browser
 
 
