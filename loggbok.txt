@@ -1,0 +1,8 @@
+Jag har mästadels använt mig av whitebox testning men också lite blackbox testning.
+
+Jag hade några avvikleser med att den skrev in fel datum på startsidan, jag hade även en när man skulle avboka en bil så ville den inte acseptera poppuppen som kom upp.
+Till sist så hade jag en när jag snyggade till koden så ville den inte genomföra test 2.
+
+Jag skulle säga att testfall 1 ger störst vinnst med att automatiseras, för att det tar lång tid att klicka sig igenom alla sidor och se till så att alla fungerar.
+
+Det svåraste med labben var att komma igång och börja skriva koden och att förstå instruktionerna.
