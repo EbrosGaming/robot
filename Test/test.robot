@@ -48,6 +48,19 @@ Uer can access website
     Handle alert                 accept
     Click element                id:logo
     Wait until page contains     Infotiv Car Rental
+    Click element                id:logout
+    Wait until page contains     Infotiv Car Rental
+    Click element                id:createUser
+    Wait until page contains     Create user
+    Input text                   id:name    Apa
+    Input text                   id:last    Lapa
+    Input text                   id:phone   1234206969
+    Input text                   id:emailCreate   apa@lapa.com
+    Input text                   id:confirmEmail   apa@lapa.com
+    Input password               id:passwordCreate   apa123
+    Input text                   id:confirmPassword  apa123
+    Click element                id:create
+    Wait until page contains     Infotiv Car Rental
     Close browser
 
 
