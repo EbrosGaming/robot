@@ -44,6 +44,10 @@ Uer can access website
     Click element                id:confirm
     Click element                id:mypage
     Wait until page contains     Mypage
+    Click element                id:unBook1
+    Handle alert                 accept
+    Click element                id:logo
+    Wait until page contains     Infotiv Car Rental
     Close browser
 
 
