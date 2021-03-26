@@ -48,7 +48,7 @@ Uer can access website, click around it and logg in
     Click element                id:logo
     Wait until page contains     Infotiv Car Rental
 
-    Input text                   id:start   03-20
+    Input text                   id:start   03-30
     Input text                   id:end     03-30
     Click element                id:continue
     Wait until page contains     Infotiv Car Rental
